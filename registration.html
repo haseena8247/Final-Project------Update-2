@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+
+    <div class="registration-container">
+        <div class="form-section" id="form-section">
+            <h2>Register</h2>
+            <form id="registration-form">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+        <div class="thank-you-message" id="thank-you-message">
+           <a href="index.html"> <button class="home-btn">Go to Home Page</button></a>
+        </div>
+    </div>
+</body>
+</html>
